@@ -31,3 +31,8 @@ scp /mnt/d/Books/Driver tculo@10.88.0.29:/mnt/usb/books/Driver
 ## recursive
 
 scp -r /mnt/d/Books/Driver tculo@10.88.0.29:/mnt/usb/books/Driver
+
+## Move books, on WSL no escaping on &
+
+scp -r "/mnt/d/Books/IT/Security&Linux" tculo@10.88.0.29:"/mnt/usb/books/IT/Security\&Linux/"
+scp -r "/mnt/d/Books/IT/Temp" tculo@10.88.0.29:"/mnt/usb/books/IT/Temp"
