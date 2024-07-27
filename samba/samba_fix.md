@@ -16,13 +16,13 @@ sudo chown user:group /mnt/usb/books
 scp  NVIDIA-Linux-x86_64-550.90.05-vgpu-kvm.run user@192.168.1.10:/mnt/d/Bücher/Driver
 scp /mnt/d/Books/Driver/NVIDIA-Linux-x86_64-550.90.05-vgpu-kvm.run tculo@10.88.0.113:/home/tculo/tmp/NVIDIA-Linux-x86_64-550.90.05-vgpu-kvm.run
 
-## receive
+## receive/fetch
 
-scp user@192.168.1.20:/home/user/remote_files/remote_file.txt .
+scp root@10.88.0.113:/var/log/nvidia-installer.log .
 
 scp tculo@10.88.0.29:/mnt/d/Bücher/Driver/NVIDIA-Linux-x86_64-550.90.05-vgpu-kvm.run .
 
-scp tculo@10.88.0.10:/mnt/d/Books/Driver/T4_2024_07.zip .
+scp tculo@10.88.0.113:/mnt/d/Books/Driver/T4_2024_07.zip .
 
 scp /mnt/d/Books/Driver tculo@10.88.0.29:/mnt/usb/books/Driver
 
