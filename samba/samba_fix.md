@@ -15,6 +15,7 @@ sudo chown user:group /mnt/usb/books
 
 scp  NVIDIA-Linux-x86_64-550.90.05-vgpu-kvm.run user@192.168.1.10:/mnt/d/Bücher/Driver
 scp /mnt/d/Books/Driver/NVIDIA-Linux-x86_64-550.90.05-vgpu-kvm.run tculo@10.88.0.113:/home/tculo/tmp/NVIDIA-Linux-x86_64-550.90.05-vgpu-kvm.run
+scp /home/tculo/homelab/fixes/samba/s_tcpc.txt tculo@10.88.0.29:/home/tculo/projects/samba/
 
 ## receive/fetch
 

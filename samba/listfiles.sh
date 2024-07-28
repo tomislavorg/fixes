@@ -1,5 +1,5 @@
 target_dir="/mnt/d/Books"
-output_file="directory_comparison.txt"
+output_file="s_tcpc.txt"
 
 # Function to list files and directories recursively
 function list_files() {
