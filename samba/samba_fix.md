@@ -37,3 +37,6 @@ scp -r /mnt/d/Books/Driver tculo@10.88.0.29:/mnt/usb/books/Driver
 
 scp -r "/mnt/d/Books/IT/Security&Linux" tculo@10.88.0.29:"/mnt/usb/books/IT/Security\&Linux/"
 scp -r "/mnt/d/Books/IT/Temp" tculo@10.88.0.29:"/mnt/usb/books/IT/Temp"
+
+
+scp /mnt/c/temp/gitlab_all_repos.tar.gz  root@10.88.0.230:/tmp/
