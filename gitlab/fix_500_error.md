@@ -18,7 +18,9 @@ gitlab-rails console -e production
 ## In the Rails console
 
 user = User.find_by(username: 'root')
-user.password = 'NewSecurePass2024#'
-user.password_confirmation = 'NewSecurePass2024#'
+user.password = ''
+user.password_confirmation = ''
 user.save!
 quit
+
+<https://www.turnkeylinux.org/forum/support/sat-20240504-1704/error-500-cannot-login-gitlab-18>
