@@ -17,7 +17,7 @@ chown -R git:git /var/opt/gitlab/git-data/repositories/@hashed/
 
 gitlab-ctl restart -->
 
-## OLD 
+<!-- ## OLD 
 
  gitlab-backup create
 
@@ -39,4 +39,6 @@ chmod 600 /etc/gitlab/gitlab.rb /etc/gitlab/gitlab-secrets.json
 
 gitlab-ctl reconfigure
 
-gitlab-ctl restart
+gitlab-ctl restart -->
+
+Gitlab export Project <https://docs.gitlab.com/ee/user/project/import/>
