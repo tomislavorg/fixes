@@ -23,4 +23,6 @@ user.password_confirmation = ''
 user.save!
 quit
 
+# Restart Gitlab
+
 <https://www.turnkeylinux.org/forum/support/sat-20240504-1704/error-500-cannot-login-gitlab-18>
