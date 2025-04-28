@@ -1,0 +1,25 @@
+                                                                /etc/multipath.conf *                                                                                   
+defaults {
+    user_friendly_names yes
+}
+
+blacklist {
+ 
+    wwid ".*"
+}
+
+
+devices {
+    device {
+        vendor "LIO-ORG"
+        product ".*"
+        retain_attached_hw_handler yes
+        detect_prio yes
+        features "0"
+        hardware_handler "0"
+        prio "const"
+        path_grouping_policy "multibus"
+        no_path_retry 120
+        path_checker "tur"
+    }
+}
