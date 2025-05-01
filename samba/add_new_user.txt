@@ -1,0 +1,20 @@
+sudo useradd --system --no-create-home --shell /usr/sbin/nologin smbt
+sudo usermod -aG sambausers smbt
+sudo smbpasswd -a smbt
+
+# Read-only
+
+sudo useradd --system --no-create-home --shell /usr/sbin/nologin smb_read
+sudo smbpasswd -a smb_read
+
+sudo smbpasswd -a {user}
+
+## Important - set recursively ownership to the group
+
+sudo chgrp -R sambausers /srv/samba/books
+
+### Optional if above doesnt work
+
+sudo find /srv/samba/books -type d -exec chmod 2775 {} \;
+sudo find /srv/samba/books -type f -exec chmod 664 {} \;
+
